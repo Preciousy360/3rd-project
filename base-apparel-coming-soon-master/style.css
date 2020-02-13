@@ -1,0 +1,56 @@
+.banner-image{
+    padding-left: 11rem;
+}
+
+.text1{
+    color: hsl(0, 36%, 70%);
+    padding-top: 10rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+.text1{
+    letter-spacing: 2rem;
+}
+.text2{
+    color:Black;
+    letter-spacing: 1rem;
+    font-size: bold;
+    /* font-family: Josefin Sans; */
+    font-weight: bold;
+}
+.text3{
+    color: black;
+    letter-spacing: 1rem;
+    font-size: large;
+    font-weight: bold;
+}
+.text4{
+    padding-top: 3rem;
+    padding-right:1rem;
+    color:hsl(0, 36%, 70%);
+    font-weight: normal;
+}
+input{
+    border-radius: 100px;
+    width:120%;
+    padding: 15px 20px;
+    border:1px solid #bdbdbd;
+}
+@media only screen and (max-width:1000px ) {
+    .banner-image{
+        padding-left:0;
+        margin-top: 2rem;
+    }
+    .text1{
+        letter-spacing: normal;
+    }
+    .text2{
+        letter-spacing: normal;
+    }
+    .text3{
+        letter-spacing: normal;
+    }
+  }
+  .button{
+      margin-left: 450px;
+  }
